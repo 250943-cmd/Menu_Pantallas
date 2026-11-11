@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- El checkableBehavior="single" creará los botones de selección tipo Radio -->
+<group android:id="@+id/grupo_colores"
+    android:checkableBehavior="single">
+
+    <item android:id="@+id/opcion_rojo"
+        android:title="Rojo"
+        android:checked="true" /> <!-- Inicia marcado por defecto -->
+
+    <item android:id="@+id/opcion_azul"
+        android:title="Azul" />
+
+    <item android:id="@+id/opcion_verde"
+        android:title="Verde" />
+</group>
+
+</menu>
